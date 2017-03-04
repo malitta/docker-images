@@ -2,6 +2,9 @@
 
 Lightweight image containing the bare necessities for running a PHP app over HTTP/HTTPS. This is intended to be used as a base image for your app specific Dockerfiles. See [docker-images](https://github.com/malitta/docker-images) repository for extensions of this image. 
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/malitta/php-base.svg)](https://hub.docker.com/u/malitta/php-base)
+[![Docker Pulls](https://img.shields.io/docker/pulls/malitta/php-base.svg)](https://hub.docker.com/r/malitta/php-base)
+
 ## Contains
 
 - Ubuntu ([latest LTS](https://wiki.ubuntu.com/LTS))
