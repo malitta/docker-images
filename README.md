@@ -14,9 +14,9 @@ You can easily use one of these images as the example illustrates below.
 
 ##### Eg: Starting a new Lumen application using POSTGRESQL for storage
 
-Create a Dockerfile in your project directory.
+Create a `Dockerfile` in your project directory
 ```
-FROM malitta/laravel:5.4
+FROM malitta/lumen
 
 RUN apt-get install -y php7.0-pgsql
 ```
@@ -27,6 +27,6 @@ Build the image by running
 
 Start a container using the image
 
-`docker run -dit -p 8080:80 -v ./:/var/www laravelapp`
+`docker run -dit -p 8080:80 -v $(pwd)/:/var/www lumenapp`
 
 It's as simple as that!  🙌
