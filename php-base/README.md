@@ -1,6 +1,6 @@
 # Docker PHP Base Image
 
-Lightweight image containing the bare necessities for running a PHP app over HTTP/HTTPS. This is intended to be used as a base image for your app specific Dockerfiles. See docker-images repository for extensions of this image. 
+Lightweight image containing the bare necessities for running a PHP app over HTTP/HTTPS. This is intended to be used as a base image for your app specific Dockerfiles. See [docker-images](https://github.com/malitta/docker-images) repository for extensions of this image. 
 
 ## Contains
 
