@@ -8,7 +8,10 @@ Lightweight image containing the bare necessities for running a PHP app over HTT
 ## Contains
 
 - Ubuntu ([latest LTS](https://wiki.ubuntu.com/LTS))
+	- Supervisor
+	- Vim
 - PHP 7.0
+	- Composer
 - Apache 2.4 (HTTP/1.1)
 
 ## Usage
