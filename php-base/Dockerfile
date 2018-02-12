@@ -1,15 +1,11 @@
-FROM ubuntu:latest
+FROM php:7.2-apache
 MAINTAINER Malitta Nanayakkara <malitta@gmail.com>
 
 RUN apt-get update && apt-get install -y \
-	apache2 \	
 	curl \
-	libapache2-mod-php7.0 \
-	php7.0 \	
-	php-curl \	
-	php-xml \	
 	supervisor \
 	vim \
+	zip \
 	wget
 
 COPY ./files/supervisor-apache.conf /etc/supervisor/conf.d/apache2.conf
