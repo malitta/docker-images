@@ -10,7 +10,7 @@ Lightweight image containing the bare necessities for running a PHP app over HTT
 - Ubuntu ([latest LTS](https://wiki.ubuntu.com/LTS))
 	- Supervisor
 	- Vim
-- PHP 7.0
+- PHP 7.3
 	- Composer
 - Apache 2.4 (HTTP/1.1)
 
@@ -25,7 +25,7 @@ Create a `Dockerfile` and add other dependencies that your app requires. [See he
 ```
 FROM malitta/php-base
 
-RUN apt-get install -y php7.0-pgsql	
+RUN apt-get install -y php7.3-pgsql	
 
 COPY . /var/www
 ```
