@@ -22,7 +22,7 @@ Create a `Dockerfile` and add other dependencies that your app requires. [See he
 ```
 FROM malitta/lumen
 
-RUN apt-get install -y php7.0-pgsql	
+RUN apt-get install -y php7.3-pgsql	
 
 COPY . /var/www/
 ```

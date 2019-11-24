@@ -6,6 +6,11 @@ The intension was to build the images as lightweigh as possible to run a certain
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+## Images
+
+- [malitta/php-base](https://github.com/malitta/docker-images/tree/master/php-base) [![Docker Pulls](https://img.shields.io/docker/pulls/malitta/php-base.svg)](https://hub.docker.com/r/malitta/php-base)
+- [malitta/lumen](https://github.com/malitta/docker-images/tree/master/lumen) [![Docker Pulls](https://img.shields.io/docker/pulls/malitta/lumen.svg)](https://hub.docker.com/r/malitta/lumen)
+
 ## Usage 
 
 Without using these images to run a container directly, it is highly recommended to create your app specific `Dockerfile` first by extending one of these images. This will give you the flexibility to add additional requirements needed for your project. 
